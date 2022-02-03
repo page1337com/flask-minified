@@ -1,4 +1,4 @@
-# mini-flask
+# flask-minified [![flask-minified](https://github.com/page1337com/flask-minified/actions/workflows/master.yml/badge.svg)](https://github.com/page1337com/flask-minified/actions/workflows/master.yml)
 Docker Slim with Multistage Build in Github Actions 16.7MB
 
 ```
