@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Check Out Repo 
         uses: actions/checkout@v2
-      - run: docker build ./Dockerfile -t flask-minified
+      - run: docker build ./. -t flask-minified
       - run: curl -L -O https://downloads.dockerslim.com/releases/1.37.3/dist_linux.tar.gz
       - run: tar -zxvf dist_linux.tar.gz
       - run: script -q -c "./dist_linux/docker-slim --debug version"
